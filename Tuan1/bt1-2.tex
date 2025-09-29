@@ -1,0 +1,45 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=2.5cm]{geometry}
+
+% --- HỖ TRỢ TIẾNG VIỆT CHO pdfLaTeX ---
+\usepackage[T5]{fontenc}         % Bảng mã T5 cho tiếng Việt
+\usepackage[utf8]{inputenc}      % File .tex lưu UTF-8
+\usepackage[vietnamese]{babel}   % Quy tắc ngôn ngữ Việt
+% (Tuỳ chọn) Font kiểu Times gần giống: bỏ comment 2 dòng dưới nếu muốn
+% \usepackage{newtxtext}
+% \usepackage{newtxmath}
+
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep,topsep=2pt}
+\usepackage{hyperref}
+
+\title{Bài tập tuần 1}
+\author{Họ và tên: Nguyễn Võ Đăng Khoa \quad MSSV: 05420500126}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{1. Mong muốn và định hướng của Bạn là gì sau khi học xong môn học?}
+\textbf{Trả lời.}
+Sau khi hoàn thành học phần, mục tiêu của em:
+\begin{itemize}
+  \item \textbf{Năng lực kỹ thuật:} Nắm vững Kotlin, Jetpack Compose, kiến trúc MVVM/Clean; sử dụng Coroutines/Flow, Navigation, Room/Datastore, Retrofit, Hilt; biết viết Unit/UI test cơ bản.
+  \item \textbf{Sản phẩm/Portfolio:} Hoàn thiện tối thiểu 01 ứng dụng có backend (REST/Firebase), đưa lên GitHub kèm CI đơn giản và \emph{release} bản AAB lên Google Play (beta).
+  \item \textbf{Quy trình chuyên nghiệp:} Biết phân rã yêu cầu, thiết kế API/DB, quản lý phiên bản, logging/crashlytics, và chuẩn hoá README/tài liệu.
+\end{itemize}
+
+\section*{2. Theo bạn, trong tương lai gần (10 năm) lập trình di động có phát triển không? Giải thích tại sao?}
+\textbf{Trả lời.}
+\begin{itemize}
+  \item \textbf{Tiếp tục tăng trưởng:} Thiết bị di động vẫn là kênh chính để người dùng truy cập dịch vụ; doanh nghiệp cần ứng dụng chuyên biệt (banking, thương mại, y tế, giáo dục).
+  \item \textbf{Hạ tầng \& chuẩn mới:} 5G/6G, eSIM, thanh toán số, bảo mật sinh trắc học thúc đẩy các ca sử dụng thời gian thực và yêu cầu cập nhật ứng dụng liên tục.
+  \item \textbf{AI on-device:} Mô hình nhỏ (SLM), xử lý giọng nói/ảnh ngoại tuyến, cá nhân hoá và quyền riêng tư sẽ kéo nhu cầu kỹ sư mobile hiểu ML/Edge AI.
+  \item \textbf{Hệ sinh thái mở rộng:} Wearables/IoT, Android Auto/TV, thiết bị gập; cùng xu hướng \textit{super app} tại châu Á làm tăng phạm vi công việc.
+  \item \textbf{Năng suất công cụ:} Kotlin Multiplatform/Compose Multiplatform, Flutter, và toolchain hiện đại giảm chi phí nhưng \emph{không} thay thế vai trò thiết kế kiến trúc, UX, tối ưu hiệu năng.
+\end{itemize}
+
+\bigskip
+\noindent\textit{Kết luận:} Trong 10 năm tới, lập trình di động vẫn phát triển mạnh. Định hướng của em là xây nền tảng Android vững chắc, ra sản phẩm thực tế và dần mở rộng sang đa nền tảng \& AI on-device.
+
+\end{document}
