@@ -8,4 +8,6 @@ object Routes {
     val ScreenCol = "screen_col"
     val ScreenRow = "screen_row"
     val ScreenTextField = "screen_textfield"
+    val ScreenPassword = "screen_password"
+
 }

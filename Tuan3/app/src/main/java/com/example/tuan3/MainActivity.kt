@@ -24,6 +24,7 @@ class MainActivity : ComponentActivity() {
                 composable (Routes.ScreenCol){ ScreenCol(onBack = { navController.popBackStack() })}
                 composable (Routes.ScreenRow){ ScreenRow(onBack = { navController.popBackStack() })}
                 composable (Routes.ScreenTextField){ ScreenTextField(onBack = { navController.popBackStack() })}
+                composable (Routes.ScreenPassword){ ScreenPassword(onBack = { navController.popBackStack() })}
             })
         }
     }

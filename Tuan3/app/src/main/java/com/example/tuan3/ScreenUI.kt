@@ -54,7 +54,7 @@ fun ScreenUI(navController: NavController){
         ItemCard("image", "Displays an image") { navController.navigate(Routes.ScreenIMG)}
         Text("Input", fontWeight = FontWeight.Bold)
         ItemCard("TextField", "Input field for text") { navController.navigate(Routes.ScreenTextField) }
-        ItemCard("PasswordField", "input field for passswords") { }
+        ItemCard("PasswordField", "input field for passswords") { navController.navigate(Routes.ScreenPassword) }
         Text("Layout", fontWeight = FontWeight.Bold)
         ItemCard("Column", "Arranges elements vetically") { navController.navigate(Routes.ScreenCol) }
         ItemCard("Row", "Arranges elements horizontally") { navController.navigate(Routes.ScreenRow) }
